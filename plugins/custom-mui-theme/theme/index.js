@@ -36,7 +36,11 @@ export default createMuiTheme({
   overrides: {
     MuiButton: {
       contained: {
-        backgroundColor: 'red'
+        backgroundColor: palette.primary[300],
+
+        '&:hover': {
+          backgroundColor: palette.primary[500]
+        }
       }
     },
     MuiInput: {

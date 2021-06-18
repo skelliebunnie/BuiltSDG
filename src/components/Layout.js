@@ -3,7 +3,7 @@ import { makeStyles } from '@material-ui/core';
 
 import Navbar from './Navbar'
 
-import bgImage from '../images/sidekix-media-_IAZoJ6X-1A-unsplash.jpg'
+import bgImage from "../images/jorge-de-jorge-NvqYkDPE0Rw-unsplash.jpg";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -15,6 +15,7 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: 'space-between',
     alignItems: 'stretch',
     minHeight: '100vh',
+    backgroundColor: theme.palette.neutral[100],
 
     '&.home-page': {
       background: `center / cover no-repeat url(${bgImage})`,
